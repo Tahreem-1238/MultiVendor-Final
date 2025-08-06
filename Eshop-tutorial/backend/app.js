@@ -8,7 +8,7 @@ const path = require("path");
 
 // Allow cross-origin requests
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://multivendor-final-1.onrender.com/',
   credentials: true
 }));
 
